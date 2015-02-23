@@ -14,6 +14,17 @@
 		9C41A9F61A9324B5008ADE56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C41A9F51A9324B5008ADE56 /* Images.xcassets */; };
 		9C41A9F91A9324B5008ADE56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C41A9F71A9324B5008ADE56 /* LaunchScreen.xib */; };
 		9C41AA051A9324B5008ADE56 /* SOflowClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41AA041A9324B5008ADE56 /* SOflowClientTests.m */; };
+		9C41AA101A93251E008ADE56 /* BurgerstyleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41AA0F1A93251E008ADE56 /* BurgerstyleMenu.m */; };
+		9C41AA131A9325A9008ADE56 /* TableViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41AA121A9325A9008ADE56 /* TableViewMenu.m */; };
+		9C41AA161A93260E008ADE56 /* OAuthWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41AA151A93260E008ADE56 /* OAuthWebView.m */; };
+		9C46E5491A94F95100E7F906 /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46E5481A94F95100E7F906 /* QuestionCell.m */; };
+		9C46E54D1A95069600E7F906 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46E54C1A95069600E7F906 /* ProfileVC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C47FA081A964D8000F2308B /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C47FA071A964D8000F2308B /* Profile.m */; };
+		9C68BF9A1A93BC91009D655B /* SOflowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68BF991A93BC91009D655B /* SOflowService.m */; };
+		9C68BF9D1A93BE1A009D655B /* SearchQuestionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68BF9C1A93BE1A009D655B /* SearchQuestionsVC.m */; };
+		9C68BFA01A93C402009D655B /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68BF9F1A93C402009D655B /* Question.m */; };
+		9C68BFA31A93D0BB009D655B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68BFA21A93D0BB009D655B /* Constants.m */; };
+		9C8659BF1A9BB3F3006DB6C1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C8659BD1A9BB3F3006DB6C1 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,28 @@
 		9C41A9FE1A9324B5008ADE56 /* SOflowClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOflowClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C41AA031A9324B5008ADE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C41AA041A9324B5008ADE56 /* SOflowClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOflowClientTests.m; sourceTree = "<group>"; };
+		9C41AA0E1A93251E008ADE56 /* BurgerstyleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BurgerstyleMenu.h; path = ../BurgerstyleMenu.h; sourceTree = "<group>"; };
+		9C41AA0F1A93251E008ADE56 /* BurgerstyleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BurgerstyleMenu.m; path = ../BurgerstyleMenu.m; sourceTree = "<group>"; };
+		9C41AA111A9325A9008ADE56 /* TableViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewMenu.h; sourceTree = "<group>"; };
+		9C41AA121A9325A9008ADE56 /* TableViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewMenu.m; sourceTree = "<group>"; };
+		9C41AA141A93260E008ADE56 /* OAuthWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthWebView.h; sourceTree = "<group>"; };
+		9C41AA151A93260E008ADE56 /* OAuthWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthWebView.m; sourceTree = "<group>"; };
+		9C46E5471A94F95100E7F906 /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
+		9C46E5481A94F95100E7F906 /* QuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCell.m; sourceTree = "<group>"; };
+		9C46E54A1A95020A00E7F906 /* MenuPressedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPressedDelegate.h; sourceTree = "<group>"; };
+		9C46E54B1A95069600E7F906 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		9C46E54C1A95069600E7F906 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		9C47FA061A964D8000F2308B /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		9C47FA071A964D8000F2308B /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		9C68BF981A93BC91009D655B /* SOflowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOflowService.h; sourceTree = "<group>"; };
+		9C68BF991A93BC91009D655B /* SOflowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOflowService.m; sourceTree = "<group>"; };
+		9C68BF9B1A93BE1A009D655B /* SearchQuestionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQuestionsVC.h; sourceTree = "<group>"; };
+		9C68BF9C1A93BE1A009D655B /* SearchQuestionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQuestionsVC.m; sourceTree = "<group>"; };
+		9C68BF9E1A93C402009D655B /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		9C68BF9F1A93C402009D655B /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		9C68BFA11A93D055009D655B /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9C68BFA21A93D0BB009D655B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		9C8659BE1A9BB3F3006DB6C1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +115,32 @@
 			isa = PBXGroup;
 			children = (
 				9C41A9EC1A9324B5008ADE56 /* AppDelegate.h */,
+				9C8659BD1A9BB3F3006DB6C1 /* Model.xcdatamodeld */,
 				9C41A9ED1A9324B5008ADE56 /* AppDelegate.m */,
+				9C46E54A1A95020A00E7F906 /* MenuPressedDelegate.h */,
 				9C41A9EF1A9324B5008ADE56 /* ViewController.h */,
 				9C41A9F01A9324B5008ADE56 /* ViewController.m */,
 				9C41A9F21A9324B5008ADE56 /* Main.storyboard */,
+				9C41AA111A9325A9008ADE56 /* TableViewMenu.h */,
+				9C41AA121A9325A9008ADE56 /* TableViewMenu.m */,
+				9C47FA061A964D8000F2308B /* Profile.h */,
+				9C47FA071A964D8000F2308B /* Profile.m */,
+				9C46E5471A94F95100E7F906 /* QuestionCell.h */,
+				9C46E5481A94F95100E7F906 /* QuestionCell.m */,
+				9C41AA0E1A93251E008ADE56 /* BurgerstyleMenu.h */,
+				9C41AA0F1A93251E008ADE56 /* BurgerstyleMenu.m */,
+				9C46E54B1A95069600E7F906 /* ProfileVC.h */,
+				9C46E54C1A95069600E7F906 /* ProfileVC.m */,
+				9C41AA141A93260E008ADE56 /* OAuthWebView.h */,
+				9C41AA151A93260E008ADE56 /* OAuthWebView.m */,
+				9C68BF981A93BC91009D655B /* SOflowService.h */,
+				9C68BF991A93BC91009D655B /* SOflowService.m */,
+				9C68BF9E1A93C402009D655B /* Question.h */,
+				9C68BF9F1A93C402009D655B /* Question.m */,
+				9C68BF9B1A93BE1A009D655B /* SearchQuestionsVC.h */,
+				9C68BF9C1A93BE1A009D655B /* SearchQuestionsVC.m */,
+				9C68BFA11A93D055009D655B /* Constants.h */,
+				9C68BFA21A93D0BB009D655B /* Constants.m */,
 				9C41A9F51A9324B5008ADE56 /* Images.xcassets */,
 				9C41A9F71A9324B5008ADE56 /* LaunchScreen.xib */,
 				9C41A9E81A9324B5008ADE56 /* Supporting Files */,
@@ -219,8 +274,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C68BF9D1A93BE1A009D655B /* SearchQuestionsVC.m in Sources */,
 				9C41A9F11A9324B5008ADE56 /* ViewController.m in Sources */,
+				9C41AA131A9325A9008ADE56 /* TableViewMenu.m in Sources */,
+				9C8659BF1A9BB3F3006DB6C1 /* Model.xcdatamodeld in Sources */,
+				9C41AA101A93251E008ADE56 /* BurgerstyleMenu.m in Sources */,
+				9C46E54D1A95069600E7F906 /* ProfileVC.m in Sources */,
+				9C41AA161A93260E008ADE56 /* OAuthWebView.m in Sources */,
+				9C68BFA31A93D0BB009D655B /* Constants.m in Sources */,
+				9C46E5491A94F95100E7F906 /* QuestionCell.m in Sources */,
+				9C47FA081A964D8000F2308B /* Profile.m in Sources */,
 				9C41A9EE1A9324B5008ADE56 /* AppDelegate.m in Sources */,
+				9C68BFA01A93C402009D655B /* Question.m in Sources */,
+				9C68BF9A1A93BC91009D655B /* SOflowService.m in Sources */,
 				9C41A9EB1A9324B5008ADE56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = SOflowClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = SOflowClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +480,7 @@
 				9C41AA0A1A9324B5008ADE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C41AA0B1A9324B5008ADE56 /* Build configuration list for PBXNativeTarget "SOflowClientTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +489,22 @@
 				9C41AA0D1A9324B5008ADE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C8659BD1A9BB3F3006DB6C1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C8659BE1A9BB3F3006DB6C1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9C8659BE1A9BB3F3006DB6C1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9C41A9DD1A9324B5008ADE56 /* Project object */;
 }
